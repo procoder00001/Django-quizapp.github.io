@@ -1,0 +1,16 @@
+{% extends 'quizapp/base.html' %}
+{% block body %}
+<div class="container">
+    <div class="card-columns"style="padding:28px;margin:20px;">
+        <div class="card"align="centre"style="width:25rem;border:4px black solid">
+                                                 
+                 <h5 class="card-text">Score:{{score}}</h5>
+                 <pclass="card-text">Correct answers:{{correct}}</p>
+                 <pclass="card-text">Incorrect answers:{{wrong}}</p>
+                 <pclass="card-text">Total questions:{{total}}</p>
+                                                 
+             </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
